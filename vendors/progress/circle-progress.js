@@ -1,7 +1,7 @@
 /*
 jquery-circle-progress - jQuery Plugin to draw animated circular progress bars
 
-URL: http://kottenator.github.io/jquery-circle-progress/
+URL: https://kottenator.github.io/jquery-circle-progress/
 Author: Rostyslav Bryzgunov <kottenator@gmail.com>
 Version: 1.1.3
 License: MIT
@@ -46,9 +46,9 @@ License: MIT
          *     - { gradient: ['#3aeabb', '#fdd250'], gradientAngle: Math.PI / 4 }
          *     - { gradient: ['red', 'green', 'blue'], gradientDirection: [x0, y0, x1, y1] }
          *   - image:
-         *     - { image: 'http://i.imgur.com/pT0i89v.png' }
+         *     - { image: 'https://i.imgur.com/pT0i89v.png' }
          *     - { image: imageObject }
-         *     - { color: 'lime', image: 'http://i.imgur.com/pT0i89v.png' } - color displayed until the image is loaded
+         *     - { color: 'lime', image: 'https://i.imgur.com/pT0i89v.png' } - color displayed until the image is loaded
          */
         fill: {
             gradient: ['#3aeabb', '#fdd250']
@@ -61,7 +61,7 @@ License: MIT
         emptyFill: 'rgba(0, 0, 0, .1)',
 
         /**
-         * Animation config (see jQuery animations: http://api.jquery.com/animate/)
+         * Animation config (see jQuery animations: https://api.jquery.com/animate/)
          */
         animation: {
             duration: 1200,

@@ -19,7 +19,7 @@ class TP_facebook {
 	 */
 	public function get_user_from_url($user_url){
 		$theid = str_replace("https", "", $user_url);
-		$theid = str_replace("http", "", $theid);
+		$theid = str_replace("https", "", $theid);
 		$theid = str_replace("://", "", $theid);
 		$theid = str_replace("www.", "", $theid);
 		$theid = str_replace("facebook", "", $theid);

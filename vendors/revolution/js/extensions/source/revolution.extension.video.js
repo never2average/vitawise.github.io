@@ -408,7 +408,7 @@ jQuery.extend(true,_R, {
 	},
 
 	checkVideoApis : function(_nc,opt,addedApis) {		
-		var httpprefix = location.protocol === 'https:' ? "https" : "http";
+		var httpprefix = location.protocol === 'https:' ? "https" : "https";
 				
 		if ((_nc.data('ytid')!=undefined  || _nc.find('iframe').length>0 && _nc.find('iframe').attr('src').toLowerCase().indexOf('youtube')>0)) opt.youtubeapineeded = true;
 		if ((_nc.data('ytid')!=undefined  || _nc.find('iframe').length>0 &&  _nc.find('iframe').attr('src').toLowerCase().indexOf('youtube')>0) && addedApis.addedyt==0) {
@@ -460,7 +460,7 @@ jQuery.extend(true,_R, {
 			videoogv = _.videoogv,
 			videoafs = _.allowfullscreenvideo,
 			videocontrols = _.videocontrols,
-			httpprefix = "http",
+			httpprefix = "https",
 			videoloop = _.videoloop=="loop" ? "loop" : _.videoloop=="loopandnoslidestop" ? "loop" : "",
 			videotype = (videomp!=undefined || videowebm!=undefined) ? "html5" : 
 						(vidytid!=undefined && String(vidytid).length>1) ? "youtube" : 
